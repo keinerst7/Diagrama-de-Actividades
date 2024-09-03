@@ -1,0 +1,36 @@
+@startuml
+|Usuario|
+start
+:Acceder a la aplicación;
+
+:Seleccionar seguimiento de progreso;
+
+:Elegir generar informe personalizado;
+
+:Seleccionar métricas (distancia, tiempo, ritmo cardíaco);
+
+:Filtrar datos (días de semana);
+
+:Generar informe;
+
+|Sistema|
+:Procesar datos seleccionados;
+
+:Generar informe con las métricas y filtros aplicados;
+
+:Mostrar vista previa del informe;
+
+|Usuario|
+:Revisar vista previa;
+
+if (¿Está satisfecho?) then (Sí)
+  :Exportar informe en formato PDF;
+else (No)
+  :Ajustar selección de métricas y filtros;
+  :Regenerar informe;
+endif
+
+:Descargar informe;
+
+stop
+@enduml

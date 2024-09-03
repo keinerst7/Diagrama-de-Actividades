@@ -1,0 +1,17 @@
+@startuml
+title Diagrama de Actividades: Configuración de Metas Diarias en Salud en tus Manos
+
+start
+:Usuario se registra o inicia sesión;
+:Sistema presenta opciones de metas (ejercicio, nutrición, sueño, etc.);
+:Usuario selecciona metas;
+split
+    :Sistema sugiere metas basadas en datos históricos;
+    :Usuario define metas personalizadas;
+end split
+:Sistema valida metas;
+:Sistema almacena metas en el perfil del usuario;
+:Sistema crea un calendario de seguimiento;
+stop
+
+@enduml

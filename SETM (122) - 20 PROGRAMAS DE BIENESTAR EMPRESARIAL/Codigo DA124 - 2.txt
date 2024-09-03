@@ -1,0 +1,31 @@
+@startuml
+|Usuario|
+start
+:Acceder a la app 'Salud en tus Manos';
+
+:Seleccionar la opción de 'Programas de Bienestar';
+
+:Ingresar información personal y objetivos de salud;
+
+|Sistema|
+:Analizar datos de salud y preferencias del usuario;
+
+:Desarrollar un programa de bienestar personalizado;
+
+if (¿Se requieren ajustes?) then (Sí)
+  :Permitir personalización adicional por parte del usuario;
+else (No)
+  :Generar programa de bienestar final;
+endif
+
+:Proporcionar recomendaciones y actividades específicas;
+
+|Usuario|
+:Revisar programa de bienestar personalizado;
+
+:Comenzar a seguir las recomendaciones y actividades;
+
+:Monitorear progreso y ajustar programa si es necesario;
+
+stop
+@enduml

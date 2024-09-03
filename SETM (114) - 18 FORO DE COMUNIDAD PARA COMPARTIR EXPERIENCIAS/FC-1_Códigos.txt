@@ -1,0 +1,21 @@
+@startuml
+|Equipo de Desarrollo|
+start
+:Definir objetivos de gamificación;
+:Investigar técnicas y elementos de gamificación;
+:Seleccionar funciones y características a implementar;
+:Desarrollar funciones de gamificación;
+|Sistema|
+:Integrar funciones de gamificación en la app;
+:Configurar reglas y recompensas;
+:Implementar mecánicas de seguimiento y evaluación;
+|Usuario|
+:Interactuar con funciones de gamificación;
+:Recibir recompensas y retroalimentación;
+:Actualizar progreso y logros;
+|Sistema|
+:Actualizar perfil de usuario con logros y recompensas;
+:Proveer retroalimentación continua;
+stop
+@enduml
+

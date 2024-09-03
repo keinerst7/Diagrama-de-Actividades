@@ -1,0 +1,19 @@
+@startuml
+|Usuario|
+start
+:Acceder a la app "Salud en tus Manos";
+:Ir a la sección de recordatorios de medicamentos;
+:Seleccionar opción para añadir nuevo recordatorio;
+:Ingresar detalles del medicamento (nombre, dosis, frecuencia, etc.);
+:Configurar horario y frecuencia de los recordatorios;
+:Guardar configuración del recordatorio;
+|Sistema|
+:Registrar recordatorio en la base de datos;
+:Programar notificaciones para los recordatorios;
+|Usuario|
+:Recibir notificaciones de recordatorios;
+:Tomar medicamento según recordatorio;
+:Actualizar estado del medicamento tomado en la app;
+:Revisar y ajustar recordatorios si es necesario;
+stop
+@enduml

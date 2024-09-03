@@ -1,0 +1,26 @@
+@startuml
+|Usuario|
+start
+:Acceder a la app de salud;
+:Buscar documentación o soporte;
+|Sistema|
+:Mostrar opciones de documentación y soporte;
+|Usuario|
+if (¿Consulta sobre documentación?) then (Sí)
+    :Seleccionar tema de documentación;
+    :Leer documentación relevante;
+else (No)
+    :Seleccionar opción de soporte;
+    :Contactar soporte (chat, email, etc.);
+|Sistema|
+:Recibir solicitud de soporte;
+:Asignar solicitud a un agente de soporte;
+:Proveer respuesta o solución;
+|Usuario|
+:Recibir respuesta de soporte;
+:Resolver dudas o problemas;
+:Actualizar conocimiento sobre funcionalidades;
+endif
+:Revisar y utilizar documentación adicional;
+stop
+@enduml

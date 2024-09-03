@@ -1,0 +1,16 @@
+@startuml
+|Administrador|
+start
+:Revisar normas de salud y regulaciones aplicables;
+:Consultar con expertos legales y de salud;
+:Realizar un análisis de cumplimiento;
+|Sistema|
+:Actualizar políticas y procedimientos de la app según las regulaciones;
+:Implementar cambios necesarios en la plataforma;
+:Realizar pruebas de cumplimiento;
+|Administrador|
+:Verificar que la app cumpla con las normas y regulaciones;
+:Documentar cumplimiento y cambios realizados;
+:Monitorear y actualizar según cambios en regulaciones;
+stop
+@enduml

@@ -1,0 +1,28 @@
+@startuml
+|Usuario|
+start
+:Acceder a la aplicación;
+
+:Ingresar historial de datos de salud;
+
+:Establecer objetivos de bienestar;
+
+|Sistema|
+:Analizar datos y objetivos de salud;
+:Generar recomendaciones personalizadas;
+
+if (¿Recomendaciones relevantes?) then (Sí)
+  :Mostrar recomendaciones al usuario;
+else (No)
+  :Solicitar más información al usuario;
+endif
+
+|Usuario|
+:Revisar recomendaciones;
+
+:Seleccionar recomendaciones para seguir;
+
+:Aplicar recomendaciones en la rutina diaria;
+
+stop
+@enduml

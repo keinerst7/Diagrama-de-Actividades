@@ -1,0 +1,19 @@
+@startuml
+|Administrador|
+start
+:Monitorear cambios en normativas de salud y regulaciones;
+:Evaluar impacto de cambios en la plataforma;
+:Actualizar políticas y procedimientos según nuevas regulaciones;
+:Coordinar con el equipo para implementar cambios necesarios;
+|Sistema|
+:Aplicar actualizaciones en la plataforma;
+:Realizar pruebas para verificar conformidad;
+:Registrar cambios y actualizaciones realizadas;
+|Administrador|
+:Revisar informes de pruebas de conformidad;
+:Verificar implementación de cambios y actualizaciones;
+:Actualizar documentación de cumplimiento;
+:Monitorear y ajustar políticas conforme a nuevas regulaciones;
+stop
+@enduml
+

@@ -1,0 +1,16 @@
+@startuml
+title Diagrama de Actividades: Actualizaciones Periódicas de Contenido Educativo
+
+start
+:Equipo de contenido crea nuevo contenido educativo (artículos, videos, infografías);
+:Contenido es revisado por expertos en salud;
+:Contenido es adaptado a diferentes formatos (texto, video, audio);
+:Contenido es categorizado por tema (nutrición, ejercicio, bienestar mental);
+:Contenido es programado para su publicación en fechas específicas;
+:Sistema envía notificaciones a los usuarios sobre nuevo contenido disponible;
+:Usuarios pueden acceder al nuevo contenido a través de la app;
+:Sistema registra las interacciones de los usuarios con el contenido (lecturas, visualizaciones);
+:Sistema analiza las interacciones para mejorar el contenido futuro;
+stop
+
+@enduml

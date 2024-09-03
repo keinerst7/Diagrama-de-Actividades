@@ -1,0 +1,15 @@
+@startuml
+title Diagrama de Actividades: Acceso a Información sobre Técnicas de Relajación
+
+start
+:Usuario selecciona la opción "Técnicas de relajación";
+:Sistema presenta una lista de técnicas disponibles (respiración profunda, meditación, yoga, etc.);
+:Usuario selecciona una técnica de interés;
+:Sistema muestra una descripción detallada de la técnica;
+:Sistema proporciona instrucciones paso a paso sobre cómo realizar la técnica;
+:Sistema puede incluir videos demostrativos o audios guiados;
+:Sistema permite al usuario guardar la técnica en favoritos;
+:Sistema sugiere otras técnicas relacionadas o complementarias;
+stop
+
+@enduml

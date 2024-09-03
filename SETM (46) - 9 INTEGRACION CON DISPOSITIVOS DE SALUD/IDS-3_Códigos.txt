@@ -1,0 +1,23 @@
+@startuml
+|Equipo de Aseguramiento de Calidad|
+start
+:Preparar entorno de prueba;
+:Configurar dispositivos de salud;
+:Sincronizar datos de prueba;
+|Sistema|
+:Recibir datos de prueba;
+:Procesar y almacenar datos;
+:Generar informes de sincronización;
+|Equipo de Aseguramiento de Calidad|
+:Validar precisión de datos sincronizados;
+:Comparar con datos esperados;
+if (¿Datos son precisos?) then (Sí)
+    :Registrar pruebas como exitosas;
+else (No)
+    :Documentar errores y problemas;
+    :Revisar configuración y volver a probar;
+endif
+:Generar informe de resultados de pruebas;
+:Revisar y aprobar informe;
+stop
+@enduml

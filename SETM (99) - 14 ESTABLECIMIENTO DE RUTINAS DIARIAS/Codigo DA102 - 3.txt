@@ -1,0 +1,20 @@
+@startuml
+title Diagrama de Actividades: Análisis de Cumplimiento de Rutinas en Salud en tus Manos
+
+start
+:Usuario inicia sesión;
+:Sistema accede al historial de actividades del usuario;
+split
+    :Sistema compara actividades realizadas con las planificadas;
+    :Sistema calcula porcentajes de cumplimiento;
+    :Sistema identifica patrones de cumplimiento (días de la semana, horas del día);
+end split
+:Sistema genera un informe de cumplimiento;
+:Sistema presenta el informe al usuario (gráficos, tablas);
+split
+    :Usuario recibe notificaciones sobre su progreso;
+    :Sistema sugiere ajustes a la rutina;
+end split
+stop
+
+@enduml

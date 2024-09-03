@@ -1,0 +1,26 @@
+@startuml
+|Usuario|
+start
+:Acceder a la aplicación;
+
+:Ingresar datos alimenticios diarios;
+
+:Seleccionar opción de evaluación de hábitos alimenticios;
+
+|Sistema|
+:Recolectar datos alimenticios del usuario;
+
+:Analizar datos para identificar patrones y deficiencias;
+
+:Generar informe de evaluación de hábitos;
+
+:Proporcionar recomendaciones personalizadas;
+
+|Usuario|
+:Revisar informe de evaluación y recomendaciones;
+
+:Implementar recomendaciones en su dieta;
+
+stop
+@enduml
+

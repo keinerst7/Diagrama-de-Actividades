@@ -1,0 +1,31 @@
+@startuml
+|Usuario|
+start
+:Iniciar sesión;
+:Proporcionar información de perfil;
+:Establecer objetivos de salud;
+:Registrar actividad reciente;
+|Sistema|
+:Recopilar información del perfil;
+:Obtener objetivos de salud;
+:Obtener actividad reciente;
+:Analizar datos;
+:Generar consejos personalizados;
+split
+    :Consejos sobre alimentación;
+split again
+    :Consejos sobre actividad física;
+split again
+    :Consejos sobre sueño;
+split again
+    :Consejos sobre salud mental;
+split again
+    :Consejos sobre otros temas relevantes;
+endsplit
+:Mostrar todos los consejos al usuario;
+|Usuario|
+:Revisar consejos personalizados;
+:Tomar acciones basadas en consejos;
+stop
+@enduml
+

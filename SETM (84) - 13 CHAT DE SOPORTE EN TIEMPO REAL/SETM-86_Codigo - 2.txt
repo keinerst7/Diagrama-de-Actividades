@@ -1,0 +1,18 @@
+@startuml
+title Diagrama de Actividades: Métricas de Desempeño para Salud en tus Manos
+
+start
+:Usuario registra actividad (ejercicio, alimentación, sueño, etc.);
+:Sistema almacena datos de la actividad;
+split
+    :Sistema calcula métricas básicas (calorías quemadas, distancia recorrida, horas de sueño);
+    :Sistema calcula métricas avanzadas (índice de masa corporal, porcentaje de grasa corporal, frecuencia cardíaca promedio);
+end split
+:Sistema almacena métricas calculadas;
+:Usuario accede a su perfil;
+:Sistema presenta métricas en gráficos y tablas;
+:Usuario puede comparar su progreso a lo largo del tiempo;
+:Sistema envía notificaciones sobre logros y áreas de mejora;
+stop
+
+@enduml

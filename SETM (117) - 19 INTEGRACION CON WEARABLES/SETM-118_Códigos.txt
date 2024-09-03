@@ -1,0 +1,18 @@
+@startuml
+|Usuario|
+start
+:Configurar dispositivo de seguimiento de sueño;
+:Iniciar seguimiento de sueño;
+|Sistema|
+:Recopilar datos de sueño del dispositivo;
+:Analizar datos de sueño;
+:Evaluar calidad de sueño;
+:Generar informe de calidad de sueño;
+|Usuario|
+:Revisar informe de calidad de sueño;
+:Interpretar patrones de sueño y recomendaciones;
+:Aplicar recomendaciones para mejorar el descanso;
+:Configurar seguimiento continuo de sueño;
+stop
+@enduml
+

@@ -1,0 +1,16 @@
+@startuml
+|Usuario|
+start
+:Acceder a la configuración de privacidad;
+:Revisar opciones de control de datos;
+|Sistema|
+:Mostrar opciones de configuración de datos;
+:Actualizar preferencias de privacidad;
+:Confirmar cambios de configuración;
+|Usuario|
+:Configurar opciones de recopilación de datos;
+:Configurar opciones de uso de datos;
+:Configurar opciones de compartición de datos;
+:Guardar cambios y salir;
+stop
+@enduml

@@ -1,0 +1,30 @@
+@startuml
+|Usuario|
+start
+:Acceder a la aplicación;
+
+:Seleccionar opción de evaluación de riesgos de salud;
+
+:Completar cuestionario de salud;
+
+|Sistema|
+:Recolectar datos del cuestionario;
+
+:Analizar datos para identificar posibles riesgos de salud;
+
+:Generar informe de evaluación de riesgos;
+
+:Proporcionar recomendaciones específicas para reducir los riesgos;
+
+|Usuario|
+:Revisar informe de evaluación y recomendaciones;
+
+:Implementar recomendaciones en su vida diaria;
+
+:Monitorear progreso y actualizar datos en la app;
+
+|Sistema|
+:Actualizar evaluación de riesgos y recomendaciones;
+
+stop
+@enduml

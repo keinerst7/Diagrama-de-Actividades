@@ -1,0 +1,29 @@
+@startuml
+|Usuario|
+start
+:Acceder a la aplicación;
+
+:Seleccionar planificación de comidas;
+
+:Acceder a la búsqueda de recetas;
+
+:Seleccionar filtros nutricionales (ej. bajo en carbohidratos);
+
+|Sistema|
+:Obtener lista de recetas que cumplan con los filtros;
+
+:Mostrar lista de recetas filtradas;
+
+|Usuario|
+:Seleccionar una receta de la lista;
+
+|Sistema|
+:Mostrar detalles de la receta y su información nutricional;
+
+|Usuario|
+:Revisar receta y decidir si se ajusta a sus necesidades;
+
+:Incluir receta en su dieta;
+
+stop
+@enduml

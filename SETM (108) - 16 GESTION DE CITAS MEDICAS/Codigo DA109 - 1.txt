@@ -1,0 +1,21 @@
+@startuml
+title Diagrama de Actividades: Colaboración con Profesionales de la Salud en Salud en tus Manos
+
+start
+:Usuario solicita una cita con un profesional de la salud;
+:Sistema verifica la disponibilidad de los profesionales;
+:Sistema presenta al usuario una lista de profesionales disponibles;
+:Usuario selecciona un profesional;
+:Sistema confirma la cita con el profesional;
+:Sistema envía una notificación al usuario y al profesional con los detalles de la cita;
+:En el momento de la cita:
+  :Usuario y profesional se conectan a través de una videollamada o chat;
+  :Profesional realiza una consulta y ofrece recomendaciones;
+  :Usuario puede realizar preguntas y compartir datos de salud;
+  :Sistema registra la consulta y los datos compartidos;
+end
+:Sistema permite al usuario calificar la consulta y al profesional;
+:Sistema almacena la calificación para mejorar la experiencia del usuario;
+stop
+
+@enduml

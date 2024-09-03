@@ -1,0 +1,18 @@
+@startuml
+|Desarrollador|
+start
+:Investigar normas de seguridad de datos;
+:Revisar requisitos legales aplicables;
+:Actualizar políticas de privacidad;
+:Implementar controles de seguridad;
+|Sistema|
+:Realizar pruebas de cumplimiento;
+:Auditar medidas de seguridad;
+:Documentar conformidad;
+|Desarrollador|
+:Revisar informes de auditoría;
+:Realizar ajustes necesarios;
+:Actualizar documentación de seguridad;
+:Verificar cumplimiento continuo;
+stop
+@enduml

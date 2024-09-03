@@ -1,0 +1,20 @@
+@startuml
+|Arquitecto de Software|
+start
+:Definir criterios de evaluación de arquitectura;
+:Recopilar datos sobre el rendimiento actual;
+:Revisar diseño y componentes de la arquitectura;
+:Identificar cuellos de botella y áreas de mejora;
+|Sistema|
+:Analizar datos de rendimiento;
+:Generar informes de evaluación;
+:Proponer recomendaciones de mejora;
+|Arquitecto de Software|
+:Revisar informes y recomendaciones;
+:Discutir posibles mejoras con el equipo;
+:Implementar cambios y mejoras en la arquitectura;
+:Validar impacto de las mejoras;
+:Actualizar documentación de la arquitectura;
+:Planificar futuras evaluaciones;
+stop
+@enduml

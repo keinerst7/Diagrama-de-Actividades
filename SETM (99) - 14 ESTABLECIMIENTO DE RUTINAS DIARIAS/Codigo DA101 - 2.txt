@@ -1,0 +1,20 @@
+@startuml
+title Diagrama de Actividades: Planificación de Rutinas Diarias en Salud en tus Manos
+
+start
+:Usuario selecciona la opción "Crear Rutina";
+:Sistema presenta opciones de plantillas de rutina (ejercicio, nutrición, sueño);
+split
+    :Usuario selecciona una plantilla;
+    :Sistema personaliza la plantilla según las metas del usuario;
+split again
+    :Usuario crea una rutina personalizada;
+    :Usuario agrega actividades a la rutina (ejercicios, comidas, descanso);
+    :Usuario establece la frecuencia y duración de cada actividad;
+end split
+:Sistema valida la rutina;
+:Sistema almacena la rutina en el perfil del usuario;
+:Sistema crea un calendario visual de la rutina;
+stop
+
+@enduml

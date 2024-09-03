@@ -1,0 +1,20 @@
+@startuml
+|Equipo de Desarrollo|
+start
+:Definir requisitos de escalabilidad;
+:Evaluar arquitectura actual de la plataforma;
+:Identificar cuellos de botella potenciales;
+:Diseñar soluciones para escalabilidad;
+:Implementar mejoras en la arquitectura;
+|Sistema|
+:Realizar pruebas de carga y estrés;
+:Monitorear rendimiento bajo alta demanda;
+:Optimizar recursos y procesos;
+|Equipo de Desarrollo|
+:Revisar resultados de pruebas de escalabilidad;
+:Realizar ajustes según resultados;
+:Validar estabilidad y eficiencia de la plataforma;
+:Documentar mejoras y configuraciones;
+:Preparar para despliegue en producción;
+stop
+@enduml

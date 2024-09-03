@@ -1,0 +1,16 @@
+@startuml
+|Administrador|
+start
+:Realizar auditoría de seguridad;
+:Evaluar políticas de privacidad;
+:Implementar medidas de seguridad;
+|Sistema|
+:Encriptar datos personales;
+:Encriptar datos de salud;
+:Configurar accesos y permisos;
+:Monitorear accesos y actividades;
+|Usuario|
+:Verificar cumplimiento de normas de seguridad;
+:Confirmar seguridad de datos;
+stop
+@enduml

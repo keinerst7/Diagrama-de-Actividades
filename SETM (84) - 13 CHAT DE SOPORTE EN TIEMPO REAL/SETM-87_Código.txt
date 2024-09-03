@@ -1,0 +1,20 @@
+@startuml
+title Diagrama de Actividades: Capacitación de Agentes de Soporte para Salud en tus Manos
+
+start
+:Seleccionar nuevos agentes de soporte;
+:Asignar un mentor a cada agente;
+split
+    :Capacitación teórica sobre la app;
+    :Capacitación práctica en un entorno simulado;
+    :Evaluación de conocimientos;
+split again
+    :Capacitación sobre la plataforma de chat;
+    :Prácticas en chats simulados con usuarios;
+    :Evaluación de habilidades de comunicación;
+end split
+:Certificación de agentes;
+:Asignación de agentes a equipos de soporte;
+stop
+
+@enduml

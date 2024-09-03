@@ -1,0 +1,14 @@
+@startuml
+title Diagrama de Actividades: Selección de Idioma en Salud en tus Manos
+
+start
+:Usuario inicia sesión o se registra;
+:Sistema presenta una lista de idiomas disponibles;
+:Usuario selecciona un idioma;
+:Sistema almacena la preferencia de idioma del usuario;
+:Sistema carga la interfaz de usuario en el idioma seleccionado;
+:Sistema actualiza todas las cadenas de texto (botones, menús, mensajes) al idioma seleccionado;
+stop
+
+@enduml
+

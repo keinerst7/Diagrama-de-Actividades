@@ -1,0 +1,29 @@
+@startuml
+|Usuario|
+start
+:Acceder a la aplicación;
+
+:Seleccionar "Consejos de Bienestar Personalizados";
+
+:Ingresar información sobre objetivos de bienestar (ej. mejorar la salud general, reducir el estrés);
+
+|Sistema|
+:Analizar datos de salud y hábitos del usuario;
+
+:Generar rutina de bienestar personalizada;
+
+:Combinar diferentes aspectos (ej. ejercicio, nutrición, sueño, meditación);
+
+:Mostrar rutina personalizada al usuario;
+
+|Usuario|
+:Visualizar la rutina de bienestar;
+
+if (¿Rutina adecuada?) then (Sí)
+  :Seguir la rutina;
+else (No)
+  :Ajustar los parámetros y regenerar rutina;
+endif
+
+stop
+@enduml

@@ -1,0 +1,30 @@
+@startuml
+|Usuario|
+start
+:Acceder a la aplicación;
+
+:Seleccionar planificación de comidas;
+
+:Buscar o seleccionar una receta;
+
+|Sistema|
+:Obtener detalles de la receta;
+:Mostrar receta seleccionada;
+
+:Mostrar información nutricional detallada (calorías, macronutrientes, etc.);
+
+|Usuario|
+:Revisar información nutricional;
+
+if (¿Necesita más detalles?) then (Sí)
+  :Seleccionar ingredientes individuales;
+  |Sistema|
+  :Mostrar información nutricional detallada de cada ingrediente;
+  |Usuario|
+  :Revisar información nutricional de los ingredientes;
+else (No)
+  :Tomar decisiones informadas sobre la dieta;
+endif
+
+stop
+@enduml

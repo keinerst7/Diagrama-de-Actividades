@@ -1,0 +1,31 @@
+@startuml
+|Desarrollador|
+start
+:Revisar feedback de los usuarios sobre la necesidad de información nutricional detallada;
+
+:Investigar bases de datos de nutrición confiables;
+
+:Seleccionar base de datos adecuada;
+
+|Sistema|
+:Configurar acceso a la base de datos seleccionada;
+
+:Desarrollar módulo de integración;
+
+:Implementar integración con la base de datos de nutrición;
+
+:Probar la integración para asegurar precisión y actualización de los datos;
+
+|Desarrollador|
+:Revisar y validar los resultados de la integración;
+
+:Desplegar la integración en la aplicación;
+
+|Sistema|
+:Actualizar información nutricional de alimentos y recetas en la app;
+
+|Usuario|
+:Acceder a la información nutricional precisa y actualizada;
+
+stop
+@enduml

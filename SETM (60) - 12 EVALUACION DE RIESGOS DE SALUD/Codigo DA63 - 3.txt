@@ -1,0 +1,30 @@
+@startuml
+|Usuario|
+start
+:Acceder a la aplicación;
+
+:Ingresar datos de salud y hábitos (actividad física, dieta, etc.);
+
+:Solicitar generación de informe de salud;
+
+|Sistema|
+:Recolectar datos ingresados por el usuario;
+
+:Analizar datos para identificar patrones y tendencias;
+
+:Generar informe detallado de salud;
+
+:Incluir recomendaciones basadas en el análisis;
+
+|Usuario|
+:Revisar informe detallado y recomendaciones;
+
+:Implementar recomendaciones en su vida diaria;
+
+:Monitorear progreso y actualizar datos en la app;
+
+|Sistema|
+:Actualizar análisis y generar nuevos informes basados en los datos actualizados;
+
+stop
+@enduml

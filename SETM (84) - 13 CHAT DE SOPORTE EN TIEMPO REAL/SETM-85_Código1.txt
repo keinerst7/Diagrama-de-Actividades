@@ -1,0 +1,22 @@
+@startuml
+title Diagrama de Actividades: Chat de Soporte en Tiempo Real para Salud en tus Manos
+
+start
+:Usuario inicia sesión en la app;
+:Usuario accede al módulo de chat;
+split
+    :Usuario inicia un nuevo chat;
+    :Usuario selecciona un tema (nutrición, ejercicio, salud mental, etc.);
+    :Sistema asigna un agente de soporte disponible;
+    :Se inicia una conversación en tiempo real;
+split again
+    :Usuario se une a un chat existente;
+    :Sistema verifica si el usuario tiene permisos para unirse;
+end split
+:Usuario envía mensajes;
+:Agente responde en tiempo real;
+:Usuario califica la atención recibida;
+:Se almacena el historial del chat;
+stop
+
+@enduml

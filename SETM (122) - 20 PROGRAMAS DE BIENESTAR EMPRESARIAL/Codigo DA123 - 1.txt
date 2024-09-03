@@ -1,0 +1,32 @@
+@startuml
+|Administrador de Bienestar|
+start
+:Acceder a la plataforma de bienestar empresarial;
+
+:Seleccionar la opción de evaluación de necesidades;
+
+:Introducir datos demográficos y laborales de los empleados;
+
+|Sistema|
+:Realizar encuesta de salud y bienestar a los empleados;
+
+:Recolectar respuestas de la encuesta;
+
+:Analizar datos de salud y bienestar;
+
+if (¿Necesidades de salud específicas identificadas?) then (Sí)
+  :Generar informe de necesidades de bienestar;
+  :Recomendar programas personalizados;
+else (No)
+  :Sugerir opciones de bienestar generales;
+endif
+
+|Administrador de Bienestar|
+:Revisar informe de necesidades;
+
+:Personalizar programas de bienestar según los resultados;
+
+:Implementar programas personalizados;
+
+stop
+@enduml

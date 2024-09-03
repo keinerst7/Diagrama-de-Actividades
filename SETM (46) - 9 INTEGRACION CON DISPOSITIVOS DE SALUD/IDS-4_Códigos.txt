@@ -1,0 +1,23 @@
+@startuml
+|Equipo de Desarrollo|
+start
+:Identificar requisitos de accesibilidad;
+:Investigar dispositivos de accesibilidad comunes;
+:Seleccionar dispositivos para pruebas;
+|Sistema|
+:Desarrollar compatibilidad con dispositivos seleccionados;
+:Integrar funciones de accesibilidad en la plataforma;
+|Equipo de Desarrollo|
+:Realizar pruebas de integración con dispositivos de accesibilidad;
+:Validar funcionalidad y accesibilidad;
+if (¿Dispositivo funciona correctamente?) then (Sí)
+    :Registrar compatibilidad exitosa;
+else (No)
+    :Documentar problemas;
+    :Ajustar integración y volver a probar;
+endif
+:Preparar informe de compatibilidad;
+:Revisar y aprobar informe;
+stop
+@enduml
+

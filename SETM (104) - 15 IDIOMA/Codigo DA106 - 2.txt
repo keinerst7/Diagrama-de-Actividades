@@ -1,0 +1,16 @@
+@startuml
+title Diagrama de Actividades: Traducción de Contenidos en Salud en tus Manos
+
+start
+:Identificar todos los textos traducibles en la aplicación;
+:Crear un glosario de términos específicos de salud;
+:Asignar textos a traductores profesionales;
+:Traductores realizan la traducción al idioma objetivo;
+:Revisores nativos revisan las traducciones;
+:Cargar las traducciones en un sistema de gestión de traducciones;
+:Integrar las traducciones en la aplicación;
+:Asociar cada texto con su traducción correspondiente;
+:Realizar pruebas de calidad de las traducciones en la aplicación;
+stop
+
+@enduml

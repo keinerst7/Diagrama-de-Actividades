@@ -1,0 +1,21 @@
+@startuml
+title Diagrama de Actividades: Análisis de Datos de Salud para Mejora Continua en Salud en tus Manos
+
+start
+:Usuario inicia sesión;
+:Sistema accede al historial de datos de salud del usuario;
+split
+    :Sistema realiza análisis descriptivo (promedios, máximos, mínimos);
+    :Sistema identifica correlaciones entre variables (ejercicio y sueño, nutrición y peso);
+    :Sistema detecta anomalías en los datos (valores atípicos);
+    :Sistema utiliza modelos de aprendizaje automático para predecir tendencias;
+end split
+:Sistema genera un informe personalizado;
+:Sistema presenta el informe al usuario (visualizaciones interactivas);
+split
+    :Sistema envía notificaciones sobre patrones y tendencias;
+    :Sistema sugiere ajustes a la rutina basados en los datos;
+end split
+stop
+
+@enduml

@@ -1,0 +1,25 @@
+@startuml
+|Usuario|
+start
+:Acceder a la aplicación;
+
+:Seleccionar opción de evaluación de riesgos de salud;
+
+:Completar cuestionario de salud;
+
+|Sistema|
+:Recolectar datos del cuestionario;
+
+:Analizar datos para identificar posibles riesgos de salud;
+
+:Generar informe de evaluación de riesgos;
+
+:Proporcionar recomendaciones preventivas;
+
+|Usuario|
+:Revisar informe de evaluación y recomendaciones;
+
+:Implementar medidas preventivas para mejorar el bienestar;
+
+stop
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+|Equipo de Desarrollo|
+start
+:Definir criterios de compatibilidad;
+:Investigar dispositivos de salud populares;
+:Recopilar información técnica sobre dispositivos;
+:Evaluar características y especificaciones de los dispositivos;
+:Comparar con criterios de compatibilidad;
+if (¿Dispositivo cumple criterios?) then (Sí)
+    :Registrar dispositivo como compatible;
+else (No)
+    :Descartar dispositivo;
+endif
+:Preparar informe de dispositivos compatibles;
+:Revisar y aprobar informe;
+stop
+@enduml

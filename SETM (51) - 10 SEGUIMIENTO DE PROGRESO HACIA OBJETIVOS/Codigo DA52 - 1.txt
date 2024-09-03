@@ -1,0 +1,31 @@
+@startuml
+|Usuario|
+start
+:Acceder a la aplicación;
+
+:Seleccionar seguimiento de progreso;
+
+:Ingresar objetivo de salud (ej. perder 5 kilos en 3 meses);
+
+:Registrar peso actual;
+
+|Sistema|
+:Mostrar gráfico de línea del progreso de peso;
+:Mostrar comparación de peso actual con peso inicial;
+:Calcular si está en camino de alcanzar el objetivo;
+
+if (¿Peso aumentó inesperadamente?) then (Sí)
+  :Enviar alerta al usuario;
+else (No)
+  :Continuar monitoreo;
+endif
+
+|Usuario|
+:Visualizar gráficos y estadísticas;
+
+:Identificar áreas de mejora;
+
+:Tomar medidas correctivas si es necesario;
+
+stop
+@enduml

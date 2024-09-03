@@ -1,0 +1,31 @@
+@startuml
+|Usuario|
+start
+:Acceder a la aplicación;
+
+:Seleccionar seguimiento de progreso;
+
+|Sistema|
+:Verificar progreso hacia los objetivos de salud;
+
+if (¿Objetivo alcanzado?) then (Sí)
+  :Generar notificación de logro;
+  :Enviar notificación al usuario;
+  :Generar reconocimiento (medalla, certificado, etc.);
+  :Actualizar perfil del usuario con el logro;
+else (No)
+  :Continuar monitoreo;
+endif
+
+|Usuario|
+:Recibir notificación y reconocimiento;
+
+:Visualizar logro en el perfil;
+
+:Sentirse motivado;
+
+:Continuar esforzándose en mejorar el bienestar;
+
+stop
+@enduml
+

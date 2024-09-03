@@ -1,0 +1,22 @@
+@startuml
+|Equipo de Desarrollo|
+start
+:Preparar entorno de pruebas;
+:Definir casos de prueba de integración y calidad;
+:Desarrollar scripts de prueba automatizados (si aplica);
+:Ejecutar pruebas de integración;
+|Sistema|
+:Recibir resultados de pruebas;
+:Procesar y analizar resultados;
+:Generar informes de errores y problemas;
+|Equipo de Desarrollo|
+:Revisar informes de errores y problemas;
+:Priorizar y asignar tareas de resolución;
+:Resolver errores y problemas;
+:Re-ejecutar pruebas (si es necesario);
+:Validar correcciones y ajustes;
+:Ejecutar pruebas de calidad final;
+:Preparar informe de pruebas y calidad;
+:Revisar y aprobar informe;
+stop
+@enduml

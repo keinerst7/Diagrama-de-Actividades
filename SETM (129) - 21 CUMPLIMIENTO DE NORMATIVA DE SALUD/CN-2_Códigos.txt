@@ -1,0 +1,19 @@
+@startuml
+|Administrador|
+start
+:Planificar auditoría de normativas vigentes;
+:Revisar las regulaciones actuales y requisitos de cumplimiento;
+:Recopilar documentación y políticas de la app;
+:Coordinar con el equipo para revisión de cumplimiento;
+:Realizar auditoría de cumplimiento de normativas;
+|Sistema|
+:Generar informes de auditoría;
+:Actualizar políticas y procedimientos según recomendaciones;
+:Registrar hallazgos y acciones correctivas;
+|Administrador|
+:Revisar informes de auditoría y hallazgos;
+:Implementar acciones correctivas y mejoras;
+:Verificar la conformidad continua de la app;
+:Documentar el proceso de auditoría y resultados;
+stop
+@enduml

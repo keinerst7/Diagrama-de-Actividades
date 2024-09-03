@@ -1,0 +1,17 @@
+@startuml
+title Diagrama de Actividades: Pruebas de Localización en Salud en tus Manos
+
+start
+:Seleccionar dispositivos y sistemas operativos de las regiones a probar;
+:Crear casos de prueba para cada región (unidades de medida, formatos de fecha, etc.);
+:Ejecutar pruebas funcionales en cada idioma y región;
+:Verificar la correcta visualización de la interfaz de usuario;
+:Verificar la precisión de las traducciones;
+:Verificar la funcionalidad de las características específicas de cada región;
+:Verificar la compatibilidad con teclados y caracteres especiales;
+:Identificar y registrar errores;
+:Corregir los errores identificados;
+:Repetir las pruebas hasta que no se encuentren más errores;
+stop
+
+@enduml

@@ -1,0 +1,18 @@
+@startuml
+|Usuario|
+start
+:Configurar dispositivos de salud y aplicaciones;
+:Iniciar recopilación de datos de salud;
+|Sistema|
+:Recopilar datos de salud de dispositivos y aplicaciones;
+:Almacenar datos en la base de datos;
+:Procesar datos para análisis;
+:Generar visualizaciones de datos (gráficas, tablas, etc.);
+|Usuario|
+:Acceder a la app para visualizar datos de salud;
+:Explorar visualizaciones y análisis;
+:Identificar tendencias y patrones;
+:Tomar decisiones informadas sobre el bienestar;
+stop
+@enduml
+

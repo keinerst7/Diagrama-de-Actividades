@@ -1,0 +1,16 @@
+@startuml
+|Sistema|
+start
+:Monitorear progreso del usuario;
+:Detectar logros importantes alcanzados;
+if (¿Logro importante alcanzado?) then (Sí)
+    :Generar notificación de logro;
+    :Configurar contenido de la notificación;
+    :Enviar notificación al usuario;
+else (No)
+    :Continuar monitoreando progreso;
+endif
+:Actualizar historial de logros del usuario;
+:Registrar el logro en el perfil del usuario;
+stop
+@enduml

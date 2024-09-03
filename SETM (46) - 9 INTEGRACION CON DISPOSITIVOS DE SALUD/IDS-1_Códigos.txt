@@ -1,0 +1,15 @@
+@startuml
+|Usuario|
+start
+:Iniciar sesión en la plataforma;
+:Conectar dispositivos de salud;
+|Sistema|
+:Detectar dispositivos conectados;
+:Autenticar dispositivos;
+:Sincronizar datos de salud;
+:Actualizar registros financieros;
+:Mostrar visión completa del bienestar financiero;
+|Usuario|
+:Revisar visión completa del bienestar financiero;
+stop
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+|Usuario|
+start
+:Acceder a la app "Salud en tus Manos";
+:Ir a la sección de medicamentos;
+:Seleccionar medicamento para obtener información;
+|Sistema|
+:Mostrar detalles del medicamento seleccionado;
+:Incluir información sobre nombre, dosis, frecuencia y efectos secundarios;
+|Usuario|
+:Revisar información detallada del medicamento;
+:Consultar posibles efectos secundarios y dosis recomendadas;
+:Actualizar registro de medicamentos si es necesario;
+stop
+@enduml

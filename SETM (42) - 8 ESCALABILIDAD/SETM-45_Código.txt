@@ -1,0 +1,17 @@
+@startuml
+|Equipo de Infraestructura|
+start
+:Evaluar requisitos de escalabilidad;
+:Analizar arquitectura actual de la plataforma;
+:Identificar áreas para escalabilidad horizontal y vertical;
+|Sistema|
+:Implementar escalabilidad horizontal (añadir más servidores);
+:Implementar escalabilidad vertical (aumentar capacidad de servidores existentes);
+:Configurar balanceo de carga y replicación de datos;
+|Equipo de Infraestructura|
+:Realizar pruebas de carga para validar escalabilidad;
+:Monitorear rendimiento y ajustar configuración;
+:Documentar cambios y mejoras realizadas;
+:Planificar mantenimiento continuo y revisiones periódicas;
+stop
+@enduml
